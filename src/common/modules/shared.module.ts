@@ -8,7 +8,8 @@ import { MaterialModule } from "./material.module";
     exports: [
       BrowserAnimationsModule,
       FlexLayoutModule,
+
       MaterialModule
     ]
 })
-export class CommonModule {}
+export class SharedModule {}

@@ -1,7 +1,8 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
-import { CommonModule } from "../common/modules/common.modules";
+import { CommonModule } from "../common/common.module";
+import { AppRoutingModule } from "./app-routing/app-routing.module";
 
 import { AppContainerComponent } from "./app-container/app-container.component";
 import { AppHeaderComponent } from "./app-header/app-header.component";
@@ -14,7 +15,8 @@ import { AppHeaderComponent } from "./app-header/app-header.component";
   ],
   imports: [
     BrowserModule,
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   providers: []
 })
